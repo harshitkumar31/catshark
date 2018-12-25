@@ -151,3 +151,5 @@ function initPushNotifications(abTestObj) {
 
 // Register the new element with the browser.
 customElements.define('my-element', NotificationPopup);
+
+export default NotificationPopup;
